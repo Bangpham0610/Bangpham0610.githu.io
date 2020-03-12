@@ -1,157 +1,92 @@
 * {
     margin: 0;
     padding: 0;
-}
+    }
 
-.chuyenmau {
-    position: fixed;
-    right: 100px;
-    top: 100px;
-    z-index: 9999;
-}
-
-.chuyenmau div {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #333;
-    margin-bottom: 16px;
-}
-
-.maucam {
-    background-color: #bd5d38!important;
-}
-
-.mauxanh {
-    background-color: #51f059!important;
-}
-
-.mauvang {
-    background-color: rgb(253, 197, 14)!important;
-}
-
-nav p {
-    cursor: pointer;
-}
-
-nav p:hover {
-    color: white;
-}
-
-p.active {
-    color: white!important;
-}
-
-nav {
-    background-color: var(--cam);
-    color: #ffffff99;
-    font-weight: 700;
-    letter-spacing: 1px;
-    width: 15%;
-}
-
-img.avt {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 32px;
-    border: 8px solid #ffffff47;
-}
-
-li {
-    color: var(--xam);
-    list-style: none;
-}
-
-.khoi4 .tools i {
-    font-size: 48px;
-    margin-right: 12px;
-    color: var(--xam);
-}
-
-.khoi4 .tools i:hover {
-    color: var(--cam);
-}
-
-p.thoigian {
-    color: var(--cam);
-}
-
-p.mota {
-    color: var(--xam);
-}
-
-h3.tieude3 {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--den);
-}
-
-h2.tieude2 {
-    font-size: 56px;
-    font-weight: 700;
-    color: var(--den);
-}
-
-hr {
-    border: 0.5px solid rgb(197, 197, 197);
-}
-
-header .icon i {
-    width: 64px;
-    height: 64px;
-    background-color: var(--den);
-    color: white;
-    text-align: center;
-    line-height: 64px;
-    border-radius: 50%;
-    font-size: 24px;
-    margin-right: 16px;
-    cursor: pointer;
-}
-
-header .icon i:hover {
-    background-color: var(--cam);
-}
-
-p.mota1 {
-    font-size: 18px;
-    color: var(--xam);
+.nut button {
+    width: 48px;
+    height: 48px;
+    border: 2px solid;
+    border-radius: 5px;
 }
 
 a.link {
-    color: var(--cam);
+    text-decoration: none;
+    color: #1abc9c;
 }
 
-span.ten {
-    color: var(--cam);
+p.ten {
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-body {
-    font-family: 'Muli', sans-serif;
-    --cam: #bd5d38;
-    --den: #343a40;
-    --xam: #868e96;
-    padding-left: 15%;
+img.avt {
+    width: 64px;
+    border-radius: 50%;
 }
 
-body.xanh {
-    --cam: #51f059;
+p.comment {
+    font-size: 21px;
+    color: gray;
+    line-height: 40px;
+    margin-bottom: 24px;
+    height: 120px;
 }
 
-body.vang {
-    --cam: rgb(253, 197, 14);
+li.slide {
+    list-style: none;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Saira Extra Condensed', sans-serif;
+ul.carousel {
+    width: 700px;
+    margin: auto;
+    position: relative;
+    height: 300px;
 }
 
-h4.tieude4 {
-    color: var(--xam);
+hr {
+    width: 24px;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 48px;
 }
 
-h1.tieude1 {
-    font-size: 96px;
-    font-weight: 700;
-    color: var(--den);
+h3.tieude {
+    padding-top: 48px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.khoi-carousel {
+    margin-top: 64px;
+    text-align: center;
+    font-family: Segoe UI;
+    background-color: #d5d5d5;
+    height: 500px;
+}
+
+.active {
+    animation: divao 0.4s forwards!important;
+    opacity: 1!important;
+}
+
+.diactive {
+    animation: dira 0.4s forwards!important;
+    opacity: 0!important;
+}
+
+@-webkit-keyframes divao {
+    0%{ transform: translateX(900px);}
+    100%{ transform: translateX(0px);}
+}
+@-webkit-keyframes dira {
+    0%{ transform: translateX(0px);}
+    100%{ transform: translateX(-900px);}
 }
