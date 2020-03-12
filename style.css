@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.chuyenmau {
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    z-index: 9999;
+}
+
+.chuyenmau div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #333;
+    margin-bottom: 16px;
+}
+
+.maucam {
+    background-color: #bd5d38!important;
+}
+
+.mauxanh {
+    background-color: #51f059!important;
+}
+
+.mauvang {
+    background-color: rgb(253, 197, 14)!important;
+}
+
+nav p {
+    cursor: pointer;
+}
+
+nav p:hover {
+    color: white;
+}
+
+p.active {
+    color: white!important;
+}
+
+nav {
+    background-color: var(--cam);
+    color: #ffffff99;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 15%;
+}
+
+img.avt {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    border: 8px solid #ffffff47;
+}
+
+li {
+    color: var(--xam);
+    list-style: none;
+}
+
+.khoi4 .tools i {
+    font-size: 48px;
+    margin-right: 12px;
+    color: var(--xam);
+}
+
+.khoi4 .tools i:hover {
+    color: var(--cam);
+}
+
+p.thoigian {
+    color: var(--cam);
+}
+
+p.mota {
+    color: var(--xam);
+}
+
+h3.tieude3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--den);
+}
+
+h2.tieude2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--den);
+}
+
+hr {
+    border: 0.5px solid rgb(197, 197, 197);
+}
+
+header .icon i {
+    width: 64px;
+    height: 64px;
+    background-color: var(--den);
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+header .icon i:hover {
+    background-color: var(--cam);
+}
+
+p.mota1 {
+    font-size: 18px;
+    color: var(--xam);
+}
+
+a.link {
+    color: var(--cam);
+}
+
+span.ten {
+    color: var(--cam);
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    --cam: #bd5d38;
+    --den: #343a40;
+    --xam: #868e96;
+    padding-left: 15%;
+}
+
+body.xanh {
+    --cam: #51f059;
+}
+
+body.vang {
+    --cam: rgb(253, 197, 14);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h4.tieude4 {
+    color: var(--xam);
+}
+
+h1.tieude1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--den);
+}

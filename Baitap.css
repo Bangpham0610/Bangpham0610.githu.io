@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 80px;
+    background: #171717;
+    color: #8d8c8c;
+}
+
+.icon {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.icon i {
+    height: 40px;
+    width: 40px;
+    background-color: #333;
+    color: #868686;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+i.a1:hover{
+    color: rgb(221, 217, 217);
+    cursor: pointer;
+}
+i.a2:hover{
+    color: rgb(221, 217, 217);
+    cursor: pointer;
+}
+i.a3:hover{
+    color: rgb(221, 217, 217);
+    cursor: pointer;
+}
+
+a.lik {
+    text-decoration: none;
+    color: #64a19d;
+}
+
+a.lik:hover {
+    color:rgb(20, 20, 20) ;
+}
+
+.khoi4 {
+    padding: 50px 0 0 0;
+    background: linear-gradient(180deg, #131313, #171717 );
+}
+
+p.chuduoi {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #474646eb;
+}
+
+hr.ke5 {
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    background-color: #64a19d;
+    margin-bottom: 20px;
+}
+
+p.chu {
+    margin: 10px 0 25px 0;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.cot4 {
+    width: 290px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    color: #64a19d;
+}
+
+.bacot {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+a.lk {
+    text-decoration: none;
+    color: #64a19d;
+}
+
+a.lk:hover {
+    color: #3e6663;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 4px;
+    height: 60px;
+    width: 500px;
+    padding: 0 0 0 28px;
+}
+
+.khoi3 {
+    background: linear-gradient(180deg, #41414152, #20202047, #131313), url(https://blackrockdigital.github.io/startbootstrap-grayscale/img/bg-signup.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.khoi2 {
+    margin: 150px 0 150px 0;
+}
+
+.khoi2-2 {
+    margin-top: 80px;
+}
+
+hr.ke4 {
+    width: 100px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: #64a19d;
+    border: none;
+    margin-left: 330px;
+}
+
+hr.ke3 {
+    width: 100px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: #64a19d;
+    border: none;
+}
+
+.tdanh4 {
+    text-align: right;
+    padding: 140px 70px;
+}
+
+p.tdanh3-2 {
+    color: #c4c2c2;
+    letter-spacing: 1px;
+}
+
+p.tdanh3-1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.tdanh3 {
+    padding: 140px 70px;
+}
+
+.cot {
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    color: white;
+}
+
+img.anh3 {
+    height: 100%;
+    width: 100%;
+}
+
+.chiacot {
+    width: 1140px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+hr.ke2 {
+    width: 10px;
+    height: 170px;
+    background-color: #64a19d;
+    margin-right: 48px;
+    border: none;
+}
+
+p.tieudeanh2 {
+    line-height: 28px;
+    color: #848383;
+    letter-spacing: 1px;
+    margin-top: 14px;
+}
+
+p.tieudeanh1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.tieudeanh {
+    width: 35%;
+}
+
+img.anh2-1 {
+    width: 60%;
+    height: 100%;
+}
+
+.khoi2-1 {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 430px;
+}
+
+img.anh1 {
+    width: 1140px;
+    background-size: cover;
+}
+
+h3.tieudenho1 {
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff5e;
+    width: 818px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+
+h2.tieude1 {
+    padding: 100px 0 0 0;
+    color: #cccccc;
+}
+
+.khoi1 {
+    padding: 80px 0 0 0;
+    background: linear-gradient(180deg, #131313, #191919e3, #1e1e1ee0);
+    text-align: center;
+}
+
+a.link {
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+button {
+    padding: 22px 44px;
+    margin-top: 48px;
+    background-color: #64a19d;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #497975;
+    cursor: pointer;
+}
+
+h3.tieudenho {
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff96;
+    width: 425px;
+    margin: auto;
+}
+
+h1.tieudeto {
+    font-size: 108px;
+    padding: 200px 0 0px 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsla(0, 4%, 80%, 0.58);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background: linear-gradient(180deg, #20202066, #131313), url(https://blackrockdigital.github.io/startbootstrap-grayscale/img/bg-masthead.jpg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+p.n1:hover {
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+p.n2:hover {
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+p.n3:hover {
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+p.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p.logo:hover {
+    cursor: pointer;
+}
+
+.cangiua {
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    color: #c4bcbc;
+}
+
+nav {
+    height: 72px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+    color: #64a19d;
+}
+
+.color-logo {
+    color: black;
+}
+
+.bg-nav {
+    background-color: white;
+}
